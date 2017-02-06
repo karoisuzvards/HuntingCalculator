@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Am" xml:space="preserve">
+    <value>Am</value>
+    <comment>Mētru ārenis</comment>
+  </data>
+  <data name="Ap" xml:space="preserve">
+    <value>Ap</value>
+    <comment>Platlapju ārenis</comment>
+  </data>
+  <data name="As" xml:space="preserve">
+    <value>As</value>
+    <comment>Šaurlapju ārenis</comment>
+  </data>
+  <data name="Av" xml:space="preserve">
+    <value>Av</value>
+    <comment>Viršu ārenis</comment>
+  </data>
+  <data name="Db" xml:space="preserve">
+    <value>Db</value>
+    <comment>Dumbrājs</comment>
+  </data>
+  <data name="Dm" xml:space="preserve">
+    <value>Dm</value>
+    <comment>Damaksnis</comment>
+  </data>
+  <data name="Dms" xml:space="preserve">
+    <value>Dms</value>
+    <comment>Slapjais damaksnis</comment>
+  </data>
+  <data name="DzivnBarLauces" xml:space="preserve">
+    <value>DzivnBarLauces</value>
+    <comment>Dzīvnieku barošanās lauces</comment>
+  </data>
+  <data name="Gr" xml:space="preserve">
+    <value>Gr</value>
+    <comment>Gārša</comment>
+  </data>
+  <data name="Grs" xml:space="preserve">
+    <value>Grs</value>
+    <comment>Slapjā gārša</comment>
+  </data>
+  <data name="Gs" xml:space="preserve">
+    <value>Gs</value>
+    <comment>Grīnis</comment>
+  </data>
+  <data name="KlajieSunuPurvi" xml:space="preserve">
+    <value>KlajieSunuPurvi</value>
+    <comment>Klajie sūnu purvi</comment>
+  </data>
+  <data name="Km" xml:space="preserve">
+    <value>Km</value>
+    <comment>Mētru kūdrenis</comment>
+  </data>
+  <data name="Kp" xml:space="preserve">
+    <value>Kp</value>
+    <comment>Platlapju kūdrenis</comment>
+  </data>
+  <data name="Krumaji" xml:space="preserve">
+    <value>Krumaji</value>
+    <comment>Krūmāji</comment>
+  </data>
+  <data name="Ks" xml:space="preserve">
+    <value>Ks</value>
+    <comment>Šaurlapju kūdrenis</comment>
+  </data>
+  <data name="Kv" xml:space="preserve">
+    <value>Kv</value>
+    <comment>Viršu kūdrenis</comment>
+  </data>
+  <data name="Lk" xml:space="preserve">
+    <value>Lk</value>
+    <comment>Liekņa</comment>
+  </data>
+  <data name="Ln" xml:space="preserve">
+    <value>Ln</value>
+    <comment>Lāns</comment>
+  </data>
+  <data name="MezaNeapkl" xml:space="preserve">
+    <value>MezaNeapkl</value>
+    <comment>Ar mežu neapklāta platība</comment>
+  </data>
+  <data name="Mr" xml:space="preserve">
+    <value>Mr</value>
+    <comment>Mētrājs</comment>
+  </data>
+  <data name="Mrs" xml:space="preserve">
+    <value>Mrs</value>
+    <comment>Slapjais mētrājs</comment>
+  </data>
+  <data name="Nd" xml:space="preserve">
+    <value>Nd</value>
+    <comment>Niedrājs</comment>
+  </data>
+  <data name="NeiezLauksaimn" xml:space="preserve">
+    <value>NeiezLauksaimn</value>
+    <comment>Neiežogotas lauksaimniecības zemes</comment>
+  </data>
+  <data name="NesaslEKult" xml:space="preserve">
+    <value>NesaslEKult</value>
+    <comment>Nesaslēgušās E kultūras</comment>
+  </data>
+  <data name="NesaslPKult" xml:space="preserve">
+    <value>NesaslPKult</value>
+    <comment>Nesaslēgušās P kultūras</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+    <comment>None</comment>
+  </data>
+  <data name="Pv" xml:space="preserve">
+    <value>Pv</value>
+    <comment>Purvājs</comment>
+  </data>
+  <data name="Sl" xml:space="preserve">
+    <value>Sl</value>
+    <comment>Sils</comment>
+  </data>
+  <data name="Trases" xml:space="preserve">
+    <value>Trases</value>
+    <comment>Trases</comment>
+  </data>
+  <data name="Virsaji" xml:space="preserve">
+    <value>Virsaji</value>
+    <comment>Virsāji</comment>
+  </data>
+  <data name="Vr" xml:space="preserve">
+    <value>Vr</value>
+    <comment>Vēris</comment>
+  </data>
+  <data name="Vrs" xml:space="preserve">
+    <value>Vrs</value>
+    <comment>Slapjais vēris</comment>
+  </data>
+  <data name="ZaluParejas" xml:space="preserve">
+    <value>ZaluParejas</value>
+    <comment>Zāļu, pārejas + apauguši sūnu purvi</comment>
+  </data>
+</root>
